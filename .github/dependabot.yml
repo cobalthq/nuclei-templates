@@ -17,3 +17,5 @@ updates:
       include: "scope"
     labels:
       - "Type: Maintenance"
+    cooldown:
+      default-days: 30   # Wait 30 days for any updates
