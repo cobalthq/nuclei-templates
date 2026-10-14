@@ -15,9 +15,8 @@ info:
     cvss-score: 10
     cwe-id: CWE-77
   metadata:
-    max-request: 1
+    max-request: 2
   tags: cnvd,cnvd2019,rce,catfishcms
-
 flow: http(1) && http(2)
 
 http:
@@ -48,4 +47,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4b0a00483046022100d570edc7b33b2580048fec77b6b2f9f0d57f868585cae9342aab99effc8360cf022100ed0064a22046fe4db93c24d2342e3f3cab562c91cb7ef94b03b1ba4eefdc35bf:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a004730450221009b2449ffb3ad2470c6025dbc2ae4e7deb64c58846f26997699701c5d4bed672202200163842e039cac07e6a0762e3d59f28720998e4b33ca3e399e3b8e908ecaa3dd:922c64590222798bb761d5b6d8e72950

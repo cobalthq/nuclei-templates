@@ -12,10 +12,12 @@ info:
     cwe-id: CWE-200
     cpe: cpe:2.3:a:crushftp:crushftp:*:*:*:*:*:*:*:*
   metadata:
-    max-request: 1
-    product: crushftp
-    vendor: crushftp
     verified: true
+    max-request: 1
+    vendor: crushftp
+    product: crushftp
+    shodan-query: http.html:"crushftp"
+    fofa-query: body="crushftp"
   tags: panel,edb,crushftp,detect
 
 http:
@@ -37,4 +39,4 @@ http:
         part: header
         words:
           - 'Server: CrushFTP HTTP Server'
-# digest: 4a0a0047304502200a8c905892fa77a8578e49b991290a4e898b0d28b4768c405602eee061f7262a022100ea8cbc0b69c7bbb328195143c3d1d818e4512f022f5266e9110768b80761e848:922c64590222798bb761d5b6d8e72950
+# digest: 4b0a00483046022100ea11c5efd0d71b04c7312c75b320012861a5a4c67c1dc4fecb1aae9c2e793206022100a27b990f829305c970483a9e15d5bf8653c3442c5bc412ece14c2bc3b856cca0:922c64590222798bb761d5b6d8e72950

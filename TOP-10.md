@@ -1,12 +1,12 @@
 |    TAG    | COUNT |    AUTHOR     | COUNT | DIRECTORY  | COUNT | SEVERITY | COUNT | TYPE | COUNT |
 |-----------|-------|---------------|-------|------------|-------|----------|-------|------|-------|
-| cve       |  2435 | dhiyaneshdk   |  1262 | http       |  7355 | info     |  3645 | file |   337 |
-| panel     |  1123 | daffainfo     |   864 | file       |   337 | high     |  1686 | dns  |    25 |
-| wordpress |   962 | dwisiswant0   |   803 | workflows  |   191 | medium   |  1503 |      |       |
-| exposure  |   901 | pikpikcu      |   353 | network    |   136 | critical |  1009 |      |       |
-| xss       |   895 | pussycat0x    |   349 | cloud      |    98 | low      |   265 |      |       |
-| wp-plugin |   837 | ritikchaddha  |   326 | code       |    81 | unknown  |    38 |      |       |
-| osint     |   804 | pdteam        |   297 | javascript |    56 |          |       |      |       |
-| tech      |   674 | princechaddha |   260 | ssl        |    29 |          |       |      |       |
-| lfi       |   647 | ricardomaia   |   232 | dns        |    22 |          |       |      |       |
-| misconfig |   602 | geeknik       |   230 | dast       |    21 |          |       |      |       |
+| cve       |  3330 | dhiyaneshdk   |  1871 | http       |  9035 | info     |  4236 | file |   436 |
+| panel     |  1349 | daffainfo     |   868 | cloud      |   657 | high     |  2486 | dns  |    26 |
+| xss       |  1249 | princechaddha |   854 | file       |   436 | medium   |  2387 |      |       |
+| wordpress |  1189 | dwisiswant0   |   806 | code       |   249 | critical |  1444 |      |       |
+| exposure  |  1114 | ritikchaddha  |   658 | dast       |   238 | low      |   322 |      |       |
+| wp-plugin |  1038 | pussycat0x    |   546 | workflows  |   203 | unknown  |    56 |      |       |
+| osint     |   841 | pikpikcu      |   352 | network    |   151 |          |       |      |       |
+| tech      |   811 | pdteam        |   310 | javascript |    78 |          |       |      |       |
+| rce       |   796 | pdresearch    |   271 | ssl        |    38 |          |       |      |       |
+| lfi       |   779 | iamnoooob     |   259 | dns        |    23 |          |       |      |       |

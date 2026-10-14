@@ -10,11 +10,20 @@ info:
     cwe-id: CWE-200
     cpe: cpe:2.3:a:phpmyadmin:phpmyadmin:*:*:*:*:*:*:*:*
   metadata:
-    max-request: 13
-    product: phpmyadmin
-    shodan-query: http.title:phpMyAdmin
+    max-request: 14
     vendor: phpmyadmin
-  tags: panel,phpmyadmin
+    product: phpmyadmin
+    shodan-query:
+      - "http.title:phpMyAdmin"
+      - http.title:"phpmyadmin"
+      - http.component:"phpmyadmin"
+      - cpe:"cpe:2.3:a:phpmyadmin:phpmyadmin"
+    fofa-query:
+      - body="pma_servername" && body="4.8.4"
+      - title="phpmyadmin"
+    google-query: intitle:"phpmyadmin"
+    hunter-query: app.name="phpmyadmin"&&web.body="pma_servername"&&web.body="4.8.4"
+  tags: panel,phpmyadmin,detect
 
 http:
   - method: GET
@@ -35,13 +44,17 @@ http:
         - "/web/phpmyadmin/"
         - "/xampp/phpmyadmin/"
         - "/phpMyAdmin/"
+        - "/phpma/"
+        - "/phpMyAdmin/index.php"
 
     stop-at-first-match: true
     matchers:
       - type: word
         words:
-          - "<title>phpMyAdmin"
-          - "pmahomme"
+          - 'alt="phpMyAdmin'
+          - 'name="pma_username'
+          - '/pmahomme/'
+        condition: or
 
     extractors:
       - type: regex
@@ -49,4 +62,4 @@ http:
         group: 1
         regex:
           - 'v=([a-z0-9-._]+)'
-# digest: 490a0046304402206d90224ba8f372bdc9b38b257f69f8c77e5c0a914af058f064ba7dd95a08da9102202872893647242184b043cdcc9dd82ea6bfa2165130f30c89737175e8441fe7b0:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a0047304502210092f1aff83f9cf570e5fa9ffd35d94b07dfcddee7f12e2873be647eac7987094e0220529e2dd12939a96463624db7c01e430980d2f779872a2e62d99a2b2f478394fe:922c64590222798bb761d5b6d8e72950

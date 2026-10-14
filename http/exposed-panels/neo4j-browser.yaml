@@ -11,9 +11,13 @@ info:
     cpe: cpe:2.3:a:neo4j:neo4j:*:*:*:*:*:*:*:*
   metadata:
     max-request: 1
-    product: neo4j
-    shodan-query: http.title:"Neo4j Browser"
     vendor: neo4j
+    product: neo4j
+    shodan-query:
+      - http.title:"Neo4j Browser"
+      - http.title:"neo4j browser"
+    fofa-query: title="neo4j browser"
+    google-query: intitle:"neo4j browser"
   tags: neo4j,exposure,unauth,panel
 
 http:
@@ -31,4 +35,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4a0a004730450221009f438692e451fc4a1586ac6285e18c31ee05ed59fabea189f8f8afc2f252690102201d5c2b60a37286244b0e8323e764903bf6d4362e9b430b51ee72020e54251ed8:922c64590222798bb761d5b6d8e72950
+# digest: 490a00463044022002e83bc4cbeccadabb7f6caa713d6efd2d87fc9257e2f17ca106676dad43e9d3022015a7cc752aa7e8ccc5c7384cb177f1cd224398599ad454cc782876fe0786ecba:922c64590222798bb761d5b6d8e72950

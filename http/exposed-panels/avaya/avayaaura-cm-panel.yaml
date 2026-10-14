@@ -11,8 +11,8 @@ info:
     cpe: cpe:2.3:a:avaya:aura_communication_manager:*:*:*:*:*:*:*:*
   metadata:
     max-request: 1
-    product: aura_communication_manager
     vendor: avaya
+    product: aura_communication_manager
   tags: panel,avaya
 
 http:
@@ -32,4 +32,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4a0a00473045022100b0a006b0b4214b31341131bca90abeb5abc213959a6e4dfa8fecfb1083ec3c120220258a337d808718ec2a09df2e4af04a565aa2015ec8188979aa142e387c387d80:922c64590222798bb761d5b6d8e72950
+# digest: 4b0a00483046022100a39133ae28a4167b449eb62bdeb5e37413f9850b658f89edf883a17e11c8a84d022100c2c9e6352a0addf05aa81035d233d2ca98876c8b0900b6ff821b9502a917ac0d:922c64590222798bb761d5b6d8e72950

@@ -13,7 +13,7 @@ info:
     cvss-score: 7.2
     cwe-id: CWE-79
   metadata:
-    max-request: 1
+    max-request: 2
   tags: wordpress,xss,wp-plugin,edb
 
 flow: http(1) && http(2)
@@ -49,4 +49,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4b0a00483046022100af592f16a68835c655bee255bcc966bb7d278d41691b79884d9d1deaa78bc543022100a243760bfd6ffa673ddecc88425a451543d3efbc0da301247813eee4e9784f96:922c64590222798bb761d5b6d8e72950
+# digest: 490a0046304402200b8399c40d50351e9b2c9a18f32f594e4901520c857f17fe5de2d9db5fff8553022001e515c4a2a68e043896c1119942db38b7fdd7daa5558c8c291fc192de8d80bd:922c64590222798bb761d5b6d8e72950

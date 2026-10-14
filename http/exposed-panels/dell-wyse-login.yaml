@@ -13,8 +13,8 @@ info:
     cpe: cpe:2.3:a:dell:wyse_management_suite:*:*:*:*:*:*:*:*
   metadata:
     max-request: 1
-    product: wyse_management_suite
     vendor: dell
+    product: wyse_management_suite
   tags: panel,dell,login
 
 http:
@@ -31,4 +31,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 490a0046304402203f4caaf94dc0d326d2978f06944ac7003b6145bf0d7e9f0275b17ada6f97b3d702201226515a561b0f3e7b0718077765f3c93228937829b278ebc2dacf41fc899b7b:922c64590222798bb761d5b6d8e72950
+# digest: 490a00463044022052c7f5ee591cee33442f7cff5771505ba868e63e43b1a02d37c14ae03af3cd99022073c48f9b36a57d60d942c80cd2cd00ae17c89131ce3dfd8dba4987374d209061:922c64590222798bb761d5b6d8e72950

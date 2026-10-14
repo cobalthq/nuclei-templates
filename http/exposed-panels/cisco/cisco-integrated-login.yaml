@@ -13,8 +13,8 @@ info:
     cpe: cpe:2.3:a:cisco:integrated_management_controller:*:*:*:*:*:*:*:*
   metadata:
     max-request: 1
-    product: integrated_management_controller
     vendor: cisco
+    product: integrated_management_controller
   tags: panel,cisco,edb
 
 http:
@@ -31,4 +31,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4a0a0047304502202a0dd981470c642b51b1f5ba6b22d72992ed695c05b1aeb9d3d0eac8741a7057022100aaecd798319368dc048b399829ce9a2fb1e8a886fc19f92c3e54f3a9b267bde7:922c64590222798bb761d5b6d8e72950
+# digest: 490a0046304402204d2af5c75b911f8e0903a46b12bc1bb5a082fb38b8d989e95d2fed493f633f1a02202f1a8c2100b51702d13867a639773695cef28ac3cedffc71e07801ef573d692b:922c64590222798bb761d5b6d8e72950

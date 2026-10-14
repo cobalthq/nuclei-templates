@@ -6,7 +6,7 @@ info:
   severity: info
   metadata:
     max-request: 100563
-  tags: fuzz,wordpress
+  tags: fuzz,wordpress,fuzzing
 
 http:
   - raw:
@@ -34,4 +34,4 @@ http:
         regex:
           - "===\\s(.*)\\s===" # extract the plugin name
           - "(?m)Stable tag: ([0-9.]+)" # extract the plugin version
-# digest: 4b0a00483046022100b164ba40f07a57a6b3511bd861debd69fa59d34e05222eea2afb43dc0b97a138022100f531ed2508c3f97e6fe504d90503121738be7c25abd32cf910bc343ca605b70a:922c64590222798bb761d5b6d8e72950
+# digest: 490a0046304402202885aaa4062fec3d2d74be4fd9b7ece2303dd4c93267cdd8ba7da6c53db672e402203a096e8daa128d520e72aa42cf6ecf2cefe2eead29b339fe4c3f7f68572bfafd:922c64590222798bb761d5b6d8e72950

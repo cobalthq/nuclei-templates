@@ -11,9 +11,13 @@ info:
     cpe: cpe:2.3:h:dahuasecurity:xvr5xxx:*:*:*:*:*:*:*:*
   metadata:
     max-request: 1
-    product: xvr5xxx
-    shodan-query: http.title:"XVR LOGIN"
     vendor: dahuasecurity
+    product: xvr5xxx
+    shodan-query:
+      - http.title:"XVR LOGIN"
+      - http.title:"xvr login"
+    fofa-query: title="xvr login"
+    google-query: intitle:"xvr login"
   tags: panel,xvr,dahuasecurity
 
 http:
@@ -30,4 +34,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4b0a00483046022100852308ed299b0b6a0eb7a8f3af5801c2ac6694d5d9ae1267b9fb0ee827d26932022100fa50166074880837a2e01412a5f9614adec3c33cb06d9f980202d705c9ef15ad:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022019b1deedacee6cfb06abcb1440e3c5624d0ab29c77e0fdb9ba64a8dbaf82dd3d022100ce03c29fe677127d66b708f228867a6387a0878346fcfea8a9f150ec7edb3aad:922c64590222798bb761d5b6d8e72950

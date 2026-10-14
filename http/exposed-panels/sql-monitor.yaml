@@ -11,9 +11,12 @@ info:
     cpe: cpe:2.3:a:red-gate:sql_monitor:*:*:*:*:*:*:*:*
   metadata:
     max-request: 1
-    product: sql_monitor
-    shodan-query: html:"SQL Monitor"
     vendor: red-gate
+    product: sql_monitor
+    shodan-query:
+      - html:"SQL Monitor"
+      - http.html:"sql monitor"
+    fofa-query: body="sql monitor"
   tags: panel,red-gate
 
 http:
@@ -30,4 +33,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4a0a0047304502201c68220a9d5badcaf6ce79c691493e41275b3aeb2d4dda36b36d6753e273410f022100d5c08dec3e9607b49d6f5f0eaf2ff5ea026024440a570c97c4274135a09d51c8:922c64590222798bb761d5b6d8e72950
+# digest: 4b0a00483046022100fd33e3f3bc5e3f8f0c9017c9f5efec7fb830c57d59fc826d2c60ab7cd1b6dbe9022100b287abb259503cc949d24d242191acda99a6d47f3042183c9b1f947eebaaef47:922c64590222798bb761d5b6d8e72950

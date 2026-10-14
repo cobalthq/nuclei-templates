@@ -11,8 +11,8 @@ info:
     cpe: cpe:2.3:a:prometheus:prometheus:*:*:*:*:*:*:*:*
   metadata:
     max-request: 2
-    product: prometheus
     vendor: prometheus
+    product: prometheus
   tags: panel,prometheus
 
 http:
@@ -27,4 +27,4 @@ http:
         part: body
         words:
           - '<title>Prometheus Time Series Collection and Processing Server</title>'
-# digest: 4a0a0047304502210082bfca47364813145737d8199996f17d236d59698ea405085a23c7c8541ce9a502205edefe4b2a5b38c06fc35e6e2cfdd0866e3a73a3e0065cafa8b7a5d44ca3daf1:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022014edc3cb7512fa899d6e5bf19300aef9fa747546d325484ce8a68b26af1af2c20221008b4d1832c1bbe69f33a447b288b1f66edb936ad119e7ab2b023b15776f48c0d1:922c64590222798bb761d5b6d8e72950

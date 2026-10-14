@@ -11,8 +11,11 @@ info:
     cpe: cpe:2.3:a:wordpress:wordpress:*:*:*:*:*:*:*:*
   metadata:
     max-request: 1
-    product: wordpress
     vendor: wordpress
+    product: wordpress
+    shodan-query:
+      - http.component:"wordpress"
+      - cpe:"cpe:2.3:a:wordpress:wordpress"
   tags: panel,wordpress
 
 http:
@@ -29,4 +32,4 @@ http:
           - '<form name="loginform" id="loginform" action="{{BaseURL}}/wp-login.php"
             method="post">'
         condition: or
-# digest: 4a0a004730450220045892fa8e63bff6d09fb8c950ad030ae9358ce4a600b5dbe65427055e063d380221008abcecadc44ad920319ef247a011f6bd9a9209c5ba165e45e53df51e3785a50c:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022017b4771be563ac5265f17b3901f494efdd59bba71296d6705d726094f1b2d578022100d4241856418c5658e314313aed2f2d96a4cf78d69aed06dc7bf373993b3635e3:922c64590222798bb761d5b6d8e72950

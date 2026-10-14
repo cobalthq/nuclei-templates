@@ -13,8 +13,8 @@ info:
     cpe: cpe:2.3:a:sphider:sphider:*:*:*:*:*:*:*:*
   metadata:
     max-request: 3
-    product: sphider
     vendor: sphider
+    product: sphider
   tags: edb,panel,sphider
 
 http:
@@ -35,4 +35,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 490a0046304402207e945a5028572be895c042663f7e2954077ce59b45c94db3f17fa9a94ea04277022041177e7e0b1afa73c981d0b9131367a9f59e75ecea8b22329d5158f090c8cb5c:922c64590222798bb761d5b6d8e72950
+# digest: 490a0046304402203a16372f689f8a01fdc0eea981f34eca15057d0f907784775d0a84a2a9fe22e20220166dab10e1255f7896b2d53d2234523c74f390b3a4ff31bec63fd28d5c2efdb1:922c64590222798bb761d5b6d8e72950

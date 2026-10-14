@@ -11,9 +11,13 @@ info:
     cpe: cpe:2.3:a:meshcentral:meshcentral:*:*:*:*:*:*:*:*
   metadata:
     max-request: 1
-    product: meshcentral
-    shodan-query: http.title:"MeshCentral - Login"
     vendor: meshcentral
+    product: meshcentral
+    shodan-query:
+      - http.title:"MeshCentral - Login"
+      - http.title:"meshcentral - login"
+    fofa-query: title="meshcentral - login"
+    google-query: intitle:"meshcentral - login"
   tags: panel,meshcentral
 
 http:
@@ -31,4 +35,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4b0a00483046022100d0b4ee879b8676923a6f4044e0d929fe26d8ededb4ea5ccef40b1ce4f890500e022100a638cd75e215dd37389df6e821d9133cf982ee0d6d85c498fcfb78f83d8cb5b9:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022100af090408b3cf2b60a28e62da4fe2ea853fdbda1cf7ddb3458baa895416c4438b02203002caab80c35aeb3d0b0b72edab7c5b2842caf0a9428f6c217d0c3b73f3e513:922c64590222798bb761d5b6d8e72950

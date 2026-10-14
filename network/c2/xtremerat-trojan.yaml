@@ -12,7 +12,7 @@ info:
     verified: true
     max-request: 1
     shodan-query: product:'XtremeRAT Trojan'
-  tags: network,c2,ir,osint,cti,xtreamerat
+  tags: network,c2,ir,osint,cti,xtreamerat,tcp
 
 tcp:
   - inputs:
@@ -25,8 +25,7 @@ tcp:
     read-size: 1024
 
     matchers:
-      - type: word
-        encoding: hex
-        words:
-          - "58"
-# digest: 4a0a0047304502206fa95ec595a2933ca08a0326dbce0d411afd01de4b65c0c060b9d1317264e96e022100a648393498fd3a99b1aec95f74372fc476d2e484933f438b68468bc6efa642d4:922c64590222798bb761d5b6d8e72950
+      - type: regex
+        regex:
+          - "^X$"
+# digest: 4a0a0047304502201aaa74a0a45685b9753111d481d9cdfc84052219218b3da42b37d08ab01cfe00022100caae938c671ed7128bed1763f70fe43db4255254ecec39c67c2174e060c8775d:922c64590222798bb761d5b6d8e72950

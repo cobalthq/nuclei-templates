@@ -9,9 +9,9 @@ info:
   reference:
     - https://github.com/schlagmichdoch/pairdrop
   metadata:
+    verified: true
     max-request: 1
     shodan-query: title:"PairDrop"
-    verified: true
   tags: panel,pairdrop,login
 
 http:
@@ -33,4 +33,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4a0a004730450220621ecdc1d55e58df43583f5c0db55957b67a5e3773ebf5757de4349dbcd7f4460221009e1e4009bc1e6467c184d249693d8ae8918c4e96eed8a0d99a68a92b62b9f058:922c64590222798bb761d5b6d8e72950
+# digest: 490a0046304402200815a2b1a5207c8aca5b0a7a247df0cfea56e571c12092c0bdf843009ddf8c2802207933b4400f766ac42380707377bae1cd6c3d0c45f9b4d592c5a754a010f0f342:922c64590222798bb761d5b6d8e72950

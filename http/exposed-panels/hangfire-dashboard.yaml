@@ -2,7 +2,7 @@ id: hangfire-dashboard
 
 info:
   name: Hangfire Dashboard Panel - Detect
-  author: DhiyaneshDk
+  author: DhiyaneshDk,righettod
   severity: info
   description: Hangfire Dashboard panel was detected.
   classification:
@@ -10,11 +10,15 @@ info:
     cwe-id: CWE-200
     cpe: cpe:2.3:a:hangfire:hangfire:*:*:*:*:*:*:*:*
   metadata:
-    max-request: 2
-    product: hangfire
-    shodan-query: title:"Overview – Hangfire Dashboard"
-    vendor: hangfire
     verified: true
+    max-request: 2
+    vendor: hangfire
+    product: hangfire
+    shodan-query:
+      - title:"Overview – Hangfire Dashboard"
+      - http.title:"overview – hangfire dashboard"
+    fofa-query: title="overview – hangfire dashboard"
+    google-query: intitle:"overview – hangfire dashboard"
   tags: panel,hangfire
 
 http:
@@ -30,7 +34,7 @@ http:
       - type: word
         part: body
         words:
-          - 'Overview – Hangfire Dashboard'
+          - 'Hangfire Dashboard'
           - 'Realtime Graph'
         condition: and
         case-insensitive: true
@@ -38,4 +42,11 @@ http:
       - type: status
         status:
           - 200
-# digest: 490a0046304402207fb552cbd86d689271bcc894a2d5d520b3daaaee63741d7260091eca53887dde02201ecbe2394cfc62446877e989a66015a5c590d7b245581d17054ca96963d05549:922c64590222798bb761d5b6d8e72950
+
+    extractors:
+      - type: regex
+        part: body
+        group: 1
+        regex:
+          - 'Hangfire\s+([0-9.]+)'
+# digest: 4a0a004730450220188936b65457aea1af1a075691be7274bad551bfa8a9922920c67c94c4a308a1022100c66bc001ead4416f9809eedb0e2d2c0369f48f6db2cd4432271263c382d005c7:922c64590222798bb761d5b6d8e72950

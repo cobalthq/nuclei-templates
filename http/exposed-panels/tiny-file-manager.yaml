@@ -9,10 +9,10 @@ info:
     cvss-metrics: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N
     cwe-id: CWE-200
   metadata:
+    verified: true
     max-request: 1
     shodan-query: title:"Tiny File Manager"
-    verified: true
-    zoomeye-query: app:"Tiny File Manager"
+    zoomeye-query: app="Tiny File Manager"
   tags: panel,filemanager,login,detect
 
 http:
@@ -33,4 +33,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 490a0046304402203115980e4f85212f10eaf8dc674c845df758f7b40d8806ed94d91edf8cbd310f02204f6ddae45a7aa18226d404d9b07f7866f7870932a2a7bb7d283d45a49ac046a2:922c64590222798bb761d5b6d8e72950
+# digest: 490a0046304402201ce19e8e06c0db2098db9edd2057083df772195778ca9bd528e7ce31b42c70c002206d4f9fa49ccf0cb904bf3c9044fdbe086ff1db4663640a0bdbd874722015b260:922c64590222798bb761d5b6d8e72950

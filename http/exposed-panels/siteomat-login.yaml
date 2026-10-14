@@ -13,8 +13,8 @@ info:
     cpe: cpe:2.3:a:orpak:siteomat:*:*:*:*:*:*:*:*
   metadata:
     max-request: 1
-    product: siteomat
     vendor: orpak
+    product: siteomat
   tags: siteomat,login,edb,panel,orpak
 
 http:
@@ -31,4 +31,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4a0a0047304502201b695474e1aeda3643de163b5b960be481d5be4d0605a35244ddd64ea1613960022100a2282bc507d1f333f102fa0234ce38a58555ecf5f0b59c13df668b3c594208e3:922c64590222798bb761d5b6d8e72950
+# digest: 490a0046304402201cf752ec5bcd16e47e862f4385aa7ba1f96d5492491b8441d2a9eb53d86413a802200b77dd6d6b32b4ef3b380e77d71a95407c1c31e4ec7e48393c0dbd8332b15cd9:922c64590222798bb761d5b6d8e72950

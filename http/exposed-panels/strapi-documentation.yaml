@@ -11,8 +11,8 @@ info:
     cpe: cpe:2.3:a:strapi:strapi:*:*:*:*:node.js:*:*:*
   metadata:
     max-request: 2
-    product: strapi
     vendor: strapi
+    product: strapi
   tags: strapi,panel
 
 http:
@@ -40,4 +40,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 490a0046304402200aea0b725dc3f251d2c3c2bfc1616ed5944090df58d18f6bddf29c98daca754b02206dd0016b9f3fffb90f049ffe7d1dc26370f2a91862c18ab96a044304e98c0c14:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022100a5011a64a0281b9817c526d1e01a6f10c611e4bf73837370fe6a4f9e9d3af6c902203cd8bb9fb467aa22f5bfca4dde0fead8cb5a9694d9a461f70363c4a1be83730b:922c64590222798bb761d5b6d8e72950

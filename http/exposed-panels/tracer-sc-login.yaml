@@ -13,8 +13,8 @@ info:
     cpe: cpe:2.3:h:trane:tracer_sc:*:*:*:*:*:*:*:*
   metadata:
     max-request: 1
-    product: tracer_sc
     vendor: trane
+    product: tracer_sc
   tags: tracer,trane,iot,panel,login
 
 http:
@@ -36,4 +36,4 @@ http:
         part: header
         words:
           - "text/html"
-# digest: 4b0a00483046022100aa2f0c9a411942d36b99ff3d002500a964b76f2f4077757f53430bb50c0e5bb30221008a3cb08f4cb2e11fbb2f8bba05119a92b266c96caa2a2b43f78129184a46b8b9:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022100ccc43aef06b01aeff377261f714052d17c483632cee60cf9d66962cf1c07b97602204a8be5b6c691699c73e53722c5112f7359ec1d5499e560a8dd44250cd5ddc240:922c64590222798bb761d5b6d8e72950

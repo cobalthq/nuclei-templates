@@ -11,8 +11,8 @@ info:
     cpe: cpe:2.3:a:tribalsystems:zenario:*:*:*:*:*:*:*:*
   metadata:
     max-request: 1
-    product: zenario
     vendor: tribalsystems
+    product: zenario
   tags: panel,zenario,tribalsystems
 
 http:
@@ -29,4 +29,4 @@ http:
       - type: word
         words:
           - "Welcome to Zenario"
-# digest: 4a0a004730450220082baaa50a1f5e3d14a40e1173e35f4ed58491d3bf00c2768244c0baabdbbb1f0221009ead757ba7415f082b3084499bfa764dd3e5b372b3e96ae0291a91bca99efefa:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a004730450221008628ef5482d91f28f9b28dddccde2475bd62087837b75cb26b25961f048df8a5022070de65d6cf128d6c1da646807f82eba1d8f317af98ebb6c834a444c5ca155246:922c64590222798bb761d5b6d8e72950
